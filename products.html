@@ -146,8 +146,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -169,8 +169,10 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <i class="fas fa-trash"></i>
+                                </button>
                             </div>
                         </td>
                     </tr>
@@ -192,8 +194,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -215,8 +217,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -238,8 +240,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -261,8 +263,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -286,8 +288,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -309,8 +311,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -332,8 +334,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -357,8 +359,8 @@
                             <div class="d-flex gap-1">
                                 <button type="button" class="btn btn-outline-primary btn-sm"><i
                                         class="fas fa-pen"></i></button>
-                                <button type="button" class="btn btn-outline-danger btn-sm"><i
-                                        class="fas fa-trash"></i></button>
+                                <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fas fa-trash"></i></button>
                             </div>
                         </td>
                     </tr>
@@ -369,7 +371,25 @@
 
     </main>
 
-
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-3 shadow">
+                <div class="modal-body p-4 text-center">
+                    <h5 class="mb-0">Elimina Prodotto?</h5>
+                    <p class="mb-0">L'eliminazione sar&agrave; irreversibile, sei sicuro?</p>
+                </div>
+                <div class="modal-footer flex-nowrap p-0">
+                    <button type="button"
+                        class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end"><strong>Si,
+                            continua</strong></button>
+                    <button type="button" class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0"
+                        data-bs-dismiss="modal">Annulla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- INCLUSIONE BOOTSRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
